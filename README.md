@@ -1,2 +1,3 @@
 # compose-tabrow-color-issue
-![Screenshot_20211208-171112_TabRow](https://user-images.githubusercontent.com/47034849/145233155-748fec00-1c7e-469c-84d4-c7c4a5c5204b.jpg)
+
+![Screenshot_20211208-171112_TabRow_1_26](https://user-images.githubusercontent.com/47034849/145233446-9def752b-5946-46e0-97db-1eae9991d6da.jpeg)
