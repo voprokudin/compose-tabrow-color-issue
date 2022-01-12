@@ -1,19 +1,19 @@
 # compose-tabrow-color-issue
 
-[![Repo lines of code](https://img.shields.io/github/languages/code-size/voprokudin/compose-tabrow-color-issue)](https://github.com/voprokudin/compose-tabrow-color-issue)
+A: [![Scc Count Badge](https://sloc.xyz/github/voprokudin/compose-tabrow-color-issue/?category=code)](https://github.com/voprokudin/compose-tabrow-color-issue/?category=code)
 
-A: [![](https://tokei.rs/b1/github/voprokudin/compose-tabrow-color-issue)](https://github.com/voprokudin/compose-tabrow-color-issue).
+B: [![Scc Count Badge](https://sloc.xyz/github/voprokudin/compose-tabrow-color-issue/?category=blanks)](https://github.com/voprokudin/compose-tabrow-color-issue/?category=blanks)
 
-B: ![](https://tokei.rs/b1/github/voprokudin/compose-tabrow-color-issue)
+C: [![Scc Count Badge](https://sloc.xyz/github/voprokudin/compose-tabrow-color-issue/?category=comments)](https://github.com/voprokudin/compose-tabrow-color-issue/?category=comments)
 
-C: ![](https://raw.githubusercontent.com/voprokudin/compose-tabrow-color-issue/master/cloc.svg)
+D: [![Scc Count Badge](https://sloc.xyz/github/voprokudin/compose-tabrow-color-issue/?category=lines)](https://github.com/voprokudin/compose-tabrow-color-issue/?category=lines)
 
-D: [![Scc Count Badge](https://sloc.xyz/github/voprokudin/compose-tabrow-color-issue/?category=code)](https://github.com/voprokudin/compose-tabrow-color-issue/?category=code)
+E: [![Repo lines of code](https://img.shields.io/github/languages/code-size/voprokudin/compose-tabrow-color-issue)](https://github.com/voprokudin/compose-tabrow-color-issue)
 
-E: [![Scc Count Badge](https://sloc.xyz/github/voprokudin/compose-tabrow-color-issue/?category=blanks)](https://github.com/voprokudin/compose-tabrow-color-issue/?category=blanks)
+F: [![](https://tokei.rs/b1/github/voprokudin/compose-tabrow-color-issue)](https://github.com/voprokudin/compose-tabrow-color-issue).
 
-F: [![Scc Count Badge](https://sloc.xyz/github/voprokudin/compose-tabrow-color-issue/?category=comments)](https://github.com/voprokudin/compose-tabrow-color-issue/?category=comments)
+G: ![](https://tokei.rs/b1/github/voprokudin/compose-tabrow-color-issue)
 
-G: [![Scc Count Badge](https://sloc.xyz/github/voprokudin/compose-tabrow-color-issue/?category=lines)](https://github.com/voprokudin/compose-tabrow-color-issue/?category=lines)
+H: ![](https://raw.githubusercontent.com/voprokudin/compose-tabrow-color-issue/master/cloc.svg)
 
 ![Screenshot_20211208-171112_TabRow_1_26](https://user-images.githubusercontent.com/47034849/145233446-9def752b-5946-46e0-97db-1eae9991d6da.jpeg)
