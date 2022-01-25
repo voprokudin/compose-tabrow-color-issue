@@ -5,7 +5,7 @@ inputs:
   fileOrFolderToProcess:
     required: false
     description: 'The file or folder to process'
-    default: '.'
+    default: '["app]'
   filesAndFoldersToIgnore:
     required: false
     description: 'A list of directories to ignore. Supports glob patterns.'
