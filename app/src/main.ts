@@ -13,7 +13,7 @@ async function run(): Promise<void> {
     // calculate loc stats
     const stats = await sloc({
       path: fileOrFolderToProcess,
-      extensions: ['ts', 'html', 'css', 'scss'],
+      extensions: ['ts', 'html', 'css', 'scss', 'kt'],
       ignorePaths: filesAndFoldersToIgnore,
       ignoreDefault: true
     })
