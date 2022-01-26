@@ -52,7 +52,7 @@ function run() {
             // calculate loc stats
             const stats = yield node_sloc_1.default({
                 path: fileOrFolderToProcess,
-                extensions: ['ts', 'html', 'css', 'scss', 'kt'],
+                extensions: ['kt'],
                 ignorePaths: filesAndFoldersToIgnore,
                 ignoreDefault: true
             });
