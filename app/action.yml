@@ -1,4 +1,4 @@
-name: 'Lines Of Code Alert'
+name: 'lines-of_code-counter'
 description: 'Github Action that throws an error when the specified maximum LOC count is reached by any file'
 author: 'Nacho Vazquez -- This Dot, Inc'
 inputs:

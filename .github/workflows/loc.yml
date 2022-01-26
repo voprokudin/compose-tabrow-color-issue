@@ -1,4 +1,4 @@
-name: 'loc-alarm CI'
+name: 'loc'
 
 on: # rebuild any PRs and main branch changes
   pull_request:
