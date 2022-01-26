@@ -20,8 +20,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: ./app
         id: e2e
-        with:
-          maxCount: '1000'
       # Use the output from the `e2e` step
       - name: Get the LOC
         run: echo "The project has ${{ steps.e2e.outputs.locs }} lines of code"

@@ -47,7 +47,7 @@ function run() {
         try {
             // extract inputs
             const filesAndFoldersToIgnore = JSON.parse(core.getInput('filesAndFoldersToIgnore'));
-            const maxCount = +core.getInput('maxCount');
+//            const maxCount = +core.getInput('maxCount');
             const fileOrFolderToProcess = core.getInput('fileOrFolderToProcess');
             // calculate loc stats
             const stats = yield node_sloc_1.default({
@@ -60,14 +60,14 @@ function run() {
             core.setOutput('locs', stats === null || stats === void 0 ? void 0 : stats.sloc);
             // debug information is only available when enabling debug logging https://docs.github.com/en/actions/managing-workflow-runs/enabling-debug-logging
             core.debug(`LOC ${((_a = stats === null || stats === void 0 ? void 0 : stats.sloc) === null || _a === void 0 ? void 0 : _a.toString()) || ''}`);
-            core.debug(`Max Count ${maxCount.toString() || ''}`);
+//            core.debug(`Max Count ${maxCount.toString() || ''}`);
             // verify that locs threshold is not exceeded
-            if (((stats === null || stats === void 0 ? void 0 : stats.sloc) || 0) > maxCount) {
-                core.debug('Threshold exceeded');
-                throw new Error(`The total amount of lines exceeds the maximum allowed.
-        Total Amount: ${stats === null || stats === void 0 ? void 0 : stats.sloc}
-        Max Count: ${maxCount}`);
-            }
+//            if (((stats === null || stats === void 0 ? void 0 : stats.sloc) || 0) > maxCount) {
+//                core.debug('Threshold exceeded');
+//                throw new Error(`The total amount of lines exceeds the maximum allowed.
+//        Total Amount: ${stats === null || stats === void 0 ? void 0 : stats.sloc}
+//        Max Count: ${maxCount}`);
+//            }
         }
         catch (error) {
             core.setFailed(error.message);
