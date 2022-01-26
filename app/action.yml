@@ -10,9 +10,6 @@ inputs:
     required: false
     description: 'A list of directories to ignore. Supports glob patterns.'
     default: '["node_modules", ".git", "dist", ".github"]'
-#  maxCount:
-#    required: true
-#    description: 'The maximum number of LOC for the sum of files'
 outputs:
   locs:
     description: 'The amount of LOC of your project without comments and empty lines'

@@ -7,7 +7,6 @@ async function run(): Promise<void> {
     const filesAndFoldersToIgnore = JSON.parse(
       core.getInput('filesAndFoldersToIgnore')
     )
-//     const maxCount: number = +core.getInput('maxCount')
     const fileOrFolderToProcess: string = core.getInput('fileOrFolderToProcess')
 
     // calculate loc stats
@@ -23,17 +22,7 @@ async function run(): Promise<void> {
 
     // debug information is only available when enabling debug logging https://docs.github.com/en/actions/managing-workflow-runs/enabling-debug-logging
     core.debug(`LOC ${stats?.sloc?.toString() || ''}`)
-//     core.debug(`Max Count ${maxCount.toString() || ''}`)
 
-    // verify that locs threshold is not exceeded
-//     if ((stats?.sloc || 0) > maxCount) {
-//       core.debug('Threshold exceeded')
-//       throw new Error(
-//         `The total amount of lines exceeds the maximum allowed.
-//         Total Amount: ${stats?.sloc}
-//         Max Count: ${maxCount}`
-//       )
-//     }
   } catch (error) {
     core.setFailed(error.message)
   }
