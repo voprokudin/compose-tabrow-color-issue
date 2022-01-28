@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
     @OptIn(ExperimentalPagerApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        println("asd")
         setContent {
             Column(
                 modifier = Modifier.fillMaxSize()
