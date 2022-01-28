@@ -7,12 +7,12 @@ on: # rebuild any PRs and main branch changes
       - main
 
 jobs:
-  e2e:
+  loc:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: ./app
-        id: e2e
-      # Use the output from the `e2e` step
+        id: loc
+      # Use the output from the `loc` step
       - name: Get the LOC
-        run: echo "The project has ${{ steps.e2e.outputs.locs }} lines of code"
+        run: echo "The project has ${{ steps.loc.outputs.locs }} lines of code"
