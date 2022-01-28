@@ -10,6 +10,11 @@ private val LightColorPalette = lightColors(
     secondary = Teal200
 )
 
+
+
+
+
+
 @Composable
 fun MainTheme(
     content: @Composable () -> Unit
