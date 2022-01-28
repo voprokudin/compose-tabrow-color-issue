@@ -19,6 +19,7 @@ private val LightColorPalette = lightColors(
 fun MainTheme(
     content: @Composable () -> Unit
 ) {
+    // massdjk
     MaterialTheme(
         colors = LightColorPalette,
         typography = Typography,
